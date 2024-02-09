@@ -8,12 +8,10 @@ window.addEventListener('load', () => {
       'Content-Type': 'application/json'
     },
     success: (data) => {
-      console.log(data);
       data.forEach(place => {
         $.ajax({
           url: `${apiBaseURL}/users/${place.user_id}`,
           success: (data) => {
-            console.log(data);
             $('section.places').append(`
     <article>
       <div class= "title_box" >
