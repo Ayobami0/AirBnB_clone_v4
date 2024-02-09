@@ -5,3 +5,4 @@
 *.js~
 *.html.swp
 venv
+*__pycache__
