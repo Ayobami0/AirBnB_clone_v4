@@ -6,3 +6,5 @@
 *.html.swp
 venv
 *__pycache__
+venv
+__pycache__
