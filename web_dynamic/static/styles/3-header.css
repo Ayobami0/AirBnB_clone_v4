@@ -11,7 +11,7 @@ header .logo {
 }
 #api_status {
   background-color: #cccccc;
-  left: 20px;
+  right: 20px;
   height: 100%;
   width: 40px;
   border-radius: 50%;
