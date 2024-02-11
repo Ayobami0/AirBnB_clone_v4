@@ -1,2 +1,10 @@
+*.js.swp
+*.js.un*
+*.html.un*
+*.html~
+*.js~
+*.html.swp
+venv
+*__pycache__
 venv
 __pycache__
